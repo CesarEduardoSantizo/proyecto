@@ -1,0 +1,117 @@
+nav{
+    display:center;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    font-family: font-size;
+    position:center;
+    top:0;
+    width:100%;
+    }
+
+.menu{
+   position: relative;
+}
+
+ul,ol{
+   list-style: none;
+   
+}
+.menu > li {
+   float: left;
+}
+.menu li a{
+   background-color:black;
+   color:#FFFF;
+   text-decoration: none;
+   padding:10px 12px;
+   display:block;
+   }
+
+.menu li a:hover {
+   background-color: #030202a4;
+}
+.menu li ul {
+   display: none;
+   position: absolute;
+   min-width: 140px;
+}
+.menu li:hover > ul {
+   display:block;
+}
+.menu li ul li {
+   position: center;
+}
+.menu li ul li ul {
+    right:- 140px;
+    top:0px ;
+}
+ nav{
+       height: 60px;
+       text-align: center;
+     }
+
+     nav ul{
+        list-style: none;
+        display: inline-block;
+        padding:18px;
+     }
+.prod {
+   align-content: center;
+   justify-content: center;
+   display: flex;
+}
+.cont{
+   height: 321px;
+   width: 235px;
+   box-shadow: 0 0 7px #111;
+   margin: 30px 30px;
+   
+}
+
+.muebles img {
+   height: 230px;
+   width: 235px;
+
+}
+
+.informacion {
+   height: 50px;
+   width: 100%;
+   
+   padding-top: 2px;
+}
+.informacion h2{
+   font-size: 1.2em;
+   text-align: center;
+   margin-bottom: -10px;
+
+}
+.precio{
+   font-size: 0.9em;
+   padding-bottom: 3px;
+   padding-left: 3px;
+}
+.product2 {
+   align-content: center;
+   justify-content: center;
+   display: flex;
+}
+footer {
+   background: transparent;
+   clear: both;
+   height: 150px;
+   }
+
+   footer h2 {
+   font-size: 18px;
+   text-align: right;
+   padding: 16px;
+   font-style: font-size;
+   }
+
+   footer p {
+   font-size: 18px;
+   text-align: right;
+   font-style: font-size;
+   border-bottom: 20px;
+   }

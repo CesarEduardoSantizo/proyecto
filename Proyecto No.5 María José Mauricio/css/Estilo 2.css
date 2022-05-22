@@ -1,0 +1,46 @@
+.prod {
+   align-content: left;
+   justify-content: left;
+   display: flex;
+}
+.cont{
+   height: 321px;
+   width: 235px;
+   box-shadow: 0 0 7px #111;
+   margin: 30px 30px;
+   
+}
+
+.muebles img {
+   height: 230px;
+   width: 235px;
+
+}
+
+.informacion {
+   height: 50px;
+   width: 100%;
+   
+   padding-top: 2px;
+}
+.informacion h2{
+   font-size: 1.2em;
+   text-align: center;
+   margin-bottom: -10px;
+
+}
+.precio{
+   font-size: 0.9em;
+   padding-bottom: 3px;
+   padding-left: 3px;
+}
+.product3 {
+   align-content: left;
+   justify-content: left;
+   display: flex;
+}
+.prod2 {
+   align-content: left;
+   justify-content: left;
+   display: flex;
+}
